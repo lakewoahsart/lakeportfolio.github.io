@@ -9,72 +9,199 @@
 </head>
 
 <body>
-<div>
-  <div class="banner">
-    <a href="../index.html"><img src="../images/logo.png" alt="lake homepage logo"></a>
+  <div>
+    <div class="banner">
+      <a href="../index.html"><img src="../images/logo.png" alt="lake homepage logo"></a>
 
-<div class="header">
-    <header>
-      <h1>multimedia artist :]</h1>
-    </header>
-  </div>
-</div>
- <div class="marquee-container">
+      <div class="header">
+        <header>
+          <h1>multimedia artist :]</h1>
+        </header>
+      </div>
+    </div>
+    <div class="marquee-container">
       <div class="marquee"></div>
     </div>
-  <nav>
-    <ul>
-      <li class="navButton"><a href="../pages/mywork.html">MY WORK</a></li>
-      <li class="navButton"><a href="../pages/aboutme.html">ABOUT ME</a></li>
-      <li class="navButton"><a href="../pages/contact.html">CONTACT</a></li>
-    </ul>
-  </nav>
-   <div class="background-container">
-    <div class="background-scroll">
-    </div>
-  <br>
-  <div class="header">
-
-    <h1>
+    <nav>
+      <ul>
+        <li class="navButton"><a href="../pages/mywork.html">MY WORK</a></li>
+        <li class="navButton"><a href="../pages/aboutme.html">ABOUT ME</a></li>
+        <li class="navButton"><a href="../pages/contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="background-container">
+      <div class="background-scroll">
+      </div>
       <br>
-      PHYSICAL WORK!
-    </h1>
+      <div class="header">
 
-  </div>
-  <div class="gallery">
- <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/iron_shell_preview.png" alt="slow morning preview image"></a>
-  <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/fish_eye_study_preview.png" alt="slow morning preview image"></a>
-  </div>
-  <br>
-  <div class="gallery">
- <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/shapes_reimagined_preview.png" alt="shapes reimagined preview"></a>
-  <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/cow_skull_from_life_preview.png" alt="cow skull from life preview"></a>
-  </div>
-  <br>
-    <div class="gallery">
- <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/tools_from_life_preview.png" alt="tools from life preview"></a>
-  <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/white_charcoal_preview.png" alt="white charcoal study preview"></a>
-  </div>
-  <br>
+        <h1>
+          <br>
+          PHYSICAL WORK!
+        </h1>
+
+      </div>
       <div class="gallery">
- <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/graphite_from_life_preview.png" alt="graphite from life preview"></a>
-  <a href="../pages/physical_work/.html"><img src="../images/works/thumb/drawing_thumb/skeletons_from_life_preview.png" alt="skeletons from life preview"></a>
-  </div>
-  <br>
-        <div class="gallery">
- <a href="../pages/physical_work/extension_of_self.html"><img src="../images/works/thumb/sculpture_thumb/extension_self_preview.png" alt="wire sculpture preview"></a>
-  <a href="../pages/physical_work/this_cost_me_an.html"><img src="../images/works/thumb/sculpture_thumb/arm_sculpture_preview.png" alt="arm sculpture preview"></a>
-  </div>
-  <br>
-        <div class="gallery">
- <a href="../pages/physical_work/sleepy_spam.html"><img src="../images/works/thumb/sculpture_thumb/sleepy_spam_preview.png" alt="sleepy spam preview"></a>
-  </div>
-  <br>
-    <br>
-  <footer>
-    <br>
-    <br>
-  </footer>
+
+
+        <button data-target="galleryModal1" id="clickable">
+          <img src="../images/works/thumb/drawing_thumb/iron_shell_preview.png" alt="iron shell preview">
+        </button>
+        <div id="galleryModal1" class="modal">
+          <div class="modalContent">
+            <button class="close" data-target="galleryModal1">X</button>
+            <div class="header">
+              <h1>
+                "Iron Shell"
+              </h1>
+            </div>
+            <div class="gallery">
+              <img src="../images/works/drawing/iron_shell.png" alt="iron shell drawing">
+            </div>
+          </div>
+        </div>
+
+        <button data-target="galleryModal2" id="clickable">
+          <img src="../images/works/thumb/drawing_thumb/fish_eye_study_preview.png" alt="fish eye study preview">
+        </button>
+        <div id="galleryModal2" class="modal">
+          <div class="modalContent">
+            <button class="close" data-target="galleryModal2">X</button>
+            <div class="header">
+              <h1>
+                Fish Eye lens study
+              </h1>
+            </div>
+            <div class="gallery">
+              <img src="../images/works/drawing/fish_eye_study.png" alt="fish eye study drawing">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <div class="gallery">
+        <button data-target="galleryModal3" id="clickable">
+          <img src="../images/works/thumb/drawing_thumb/shapes_reimagined_preview.png" alt="shapes reimagined preview">
+        </button>
+        <div id="galleryModal3" class="modal">
+          <div class="modalContent">
+            <button class="close" data-target="galleryModal3">X</button>
+                             <div class="header">
+                  <h1>
+                    Shapes reimagined from life
+                  </h1>
+                </div>
+                <div class="gallery">
+            <img src="../images/works/drawing/shapes_reimagined_from_life.png"
+              alt="shapes reimagined from life drawing">
+              </div>
+          </div>
+        </div>
+
+        <button data-target="galleryModal4" id="clickable">
+          <img src="../images/works/thumb/drawing_thumb/cow_skull_from_life_preview.png"
+            alt="cow skull from life preview">
+        </button>
+        <div id="galleryModal4" class="modal">
+          <div class="modalContent">
+            <button class="close" data-target="galleryModal4">X</button>
+                             <div class="header">
+                  <h1>
+                    Cow skull from life
+                  </h1>
+                </div>
+                <div class="gallery">
+            <img src="../images/works/drawing/cow_skull_from_life.png" alt="cow skull from life drawing">
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+      <br>
+      <div class="gallery">
+        <button data-target="galleryModal5" id="clickable">
+          <img src="../images/works/thumb/drawing_thumb/tools_from_life_preview.png" alt="tools from life preview">
+        </button>
+        <div id="galleryModal5" class="modal">
+          <div class="modalContent">
+            <button class="close" data-target="galleryModal5">X</button>
+                             <div class="header">
+                  <h1>
+                    Tools from life
+                  </h1>
+                </div>
+                <div class="gallery">
+            <img src="../images/works/drawing/tools_from_life.png" alt="tools from life drawing">
+            </div>
+          </div>
+        </div>
+
+        <button data-target="galleryModal6" id="clickable">
+          <img src="../images/works/thumb/drawing_thumb/white_charcoal_preview.png" alt="white charcoal study preview">
+        </button>
+        <div id="galleryModal6" class="modal">
+          <div class="modalContent">
+            <button class="close" data-target="galleryModal6">X</button>
+                             <div class="header">
+                  <h1>
+                    White charcoal study
+                  </h1>
+                </div>
+                <div class="gallery">
+            <img src="../images/works/drawing/white_charcoal_study.png" alt="white charcoal study drawing">
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <div class="gallery">
+        <a href="../pages/physical_work/extension_of_self.html" id="clickable"><img
+            src="../images/works/thumb/sculpture_thumb/extension_self_preview.png" alt="wire sculpture preview"></a>
+        <a href="../pages/physical_work/this_cost_me_an.html" id="clickable"><img
+            src="../images/works/thumb/sculpture_thumb/arm_sculpture_preview.png" alt="arm sculpture preview"></a>
+      </div>
+      <br>
+      <div class="gallery">
+        <a href="../pages/physical_work/sleepy_spam.html" id="clickable"><img
+            src="../images/works/thumb/sculpture_thumb/sleepy_spam_preview.png" alt="sleepy spam preview"></a>
+      </div>
+      <br>
+      <br>
+      <footer>
+        <br>
+        <br>
+      </footer>
+      <script>
+
+        //thanks to u/psychophg for multimodal script tutorial on reddit
+        const openButtons = document.querySelectorAll('[data-target^="galleryModal"]');
+        const closeButtons = document.querySelectorAll('.close');
+
+        openButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            const modalId = button.getAttribute('data-target');
+            const modal = document.getElementById(modalId);
+            if (modal) {
+              modal.style.display = 'block';
+            }
+          });
+        });
+
+        closeButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            const modalId = button.getAttribute('data-target');
+            const modal = document.getElementById(modalId);
+            if (modal) {
+              modal.style.display = 'none';
+            }
+          });
+        });
+
+      </script>
+
 </body>
 
 </html>

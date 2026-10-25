@@ -126,7 +126,7 @@ div.previews{
   object-fit: cover;
 
 }
-#digital-work,#physical-work,#animation-work{
+#digital-work,#physical-work,#animation-work,#clickable{
   -webkit-transition: all 0.25s ease-in-out 0.1s;
   -moz-transition: all 0.25s ease-in-out 0.1s;
   -ms-transition: all 0.25s ease-in-out 0.1s;
@@ -139,9 +139,10 @@ div.previews{
  
 
 }
-#digital-work:hover, #physical-work:hover,#animation-work:hover{
+#digital-work:hover, #physical-work:hover,#animation-work:hover,#clickable:hover{
   border: 8px #F2C5A4 solid;
 }
+
 
 
 div.gallery{
@@ -225,6 +226,53 @@ footer{
   }
 
 }
+
+button {
+  border: none;
+  background-color: rgba(0,0,0,0);
+}
+
+/*modal*/
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed *
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modalContent {
+  margin: auto;
+  width: 80%;
+  padding: 2%;
+  background-color: rgba(0,0,0,0.4);
+  border: 2px solid #F2C5A4;
+
+}
+
+/* The Close Button */
+.close {
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #F2C5A4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
 
 /** window resizing control **/
 @media screen and (max-width: 860px){
